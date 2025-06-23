@@ -77,7 +77,7 @@ export default function Portfolio() {
       <div className="container">
         <header className="profile-header">
           <div className="profile-avatar-container">
-            <img className="profile-avatar" src="/placeholder.svg?height=120&width=120" alt="Bruno Dantas Avatar" />
+            <img className="profile-avatar" src="/profile_avatar.png" alt="Bruno Dantas Avatar" />
             <div className="pixel-border"></div>
           </div>
           <div className="profile-bio">
@@ -94,25 +94,25 @@ export default function Portfolio() {
         <nav className="social-nav">
           <ul className="social-links">
             <li>
-              <a href="#" className="social-link">
+              <a href="https://www.instagram.com/brunoframex/" className="social-link">
                 <Instagram size={24} />
                 <span>Instagram</span>
               </a>
             </li>
             <li>
-              <a href="#" className="social-link">
+              <a href="https://www.linkedin.com/in/brunosilvadantas/" className="social-link">
                 <Linkedin size={24} />
                 <span>LinkedIn</span>
               </a>
             </li>
             <li>
-              <a href="#" className="social-link">
+              <a href="https://github.com/Bsdantas" className="social-link">
                 <Github size={24} />
                 <span>GitHub</span>
               </a>
             </li>
             <li>
-              <a href="#" className="social-link">
+              <a href="mailto:bs.dantas@icloud.com" className="social-link">
                 <Mail size={24} />
                 <span>Email</span>
               </a>
@@ -124,43 +124,46 @@ export default function Portfolio() {
           <h3 className="projects-title">{"< PROJETOS />"}</h3>
           <ul className="projects-list">
             <li className="projects-list-item">
-              <a href="#" className="project-link">
+              <a href="https://github-cv-gold.vercel.app/" className="project-link">
                 <span className="project-icon">🔗</span>
                 Visite o projeto "GitHub CV"
               </a>
             </li>
             <li className="projects-list-item">
-              <a href="#" className="project-link">
+              <a href="https://clone-youtube.vercel.app/" className="project-link">
                 <span className="project-icon">📺</span>
                 Visite o projeto "Clone Youtube"
               </a>
             </li>
             <li className="projects-list-item">
-              <a href="#" className="project-link">
+              <a href="https://atividade-portal-de-noticias-ebac.vercel.app/" className="project-link">
                 <span className="project-icon">📰</span>
                 Visite o projeto "Portal de noticias"
               </a>
             </li>
             <li className="projects-list-item">
-              <a href="#" className="project-link">
+              <a href="https://guia-tur-stico-de-dn-d-projeto-ebac.vercel.app/" className="project-link">
                 <span className="project-icon">🗺️</span>
                 Visite o projeto "Guia turistico"
               </a>
             </li>
             <li className="projects-list-item">
-              <a href="#" className="project-link">
+              <a href="https://loja-de-sapatos-quest-s-hoes-exercicio-ebac.vercel.app/" className="project-link">
                 <span className="project-icon">👟</span>
                 Visite o projeto "Loja de Sapatos"
               </a>
             </li>
             <li className="projects-list-item">
-              <a href="#" className="project-link">
+              <a href="https://exercicio-boots-site-academia.vercel.app/" className="project-link">
                 <span className="project-icon">💪</span>
                 Visite o projeto "Site de Academia"
               </a>
             </li>
           </ul>
         </nav>
+        <footer className="retro-footer">
+          <p className="footer-text">{"< Feito por Bruno Dantas />"}</p>
+        </footer>
       </div>
       <MouseTrail />
     </div>
